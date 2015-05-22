@@ -1,8 +1,12 @@
 {
+	//based on https://developer.chrome.com/extensions/manifest
+	//using Google's guide at https://developer.chrome.com/extensions/overview
 	"manifest_version": 2,
 	"name": "My Extension",
 	"version": "1"
 	//swage
-	"default_locale": en,
+	"default_locale": "en",
+	"description": "A manifest.",
+	
 	
   }
