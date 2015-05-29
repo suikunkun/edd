@@ -8,5 +8,14 @@
 	"default_locale": "en",
 	"description": "A manifest.",
 	
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions":[
+		"activeTab",
+		"http://ajax.googleapis.com"
+	]
+	
 	
   }
